@@ -1,16 +1,58 @@
-# React + Vite
+# React Tailwind Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive dashboard built using **React**, **TailwindCSS**, and **Lucide Icons**.  
+Includes a sidebar, navbar, cards, charts (optional), and a clean UI designed for extensibility.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+([Live Demo](https://home-management-dashboard.vercel.app/))
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🔐 Temporary Login Credentials
+Until backend authentication is added, you can use this demo login:
 
-## Expanding the ESLint configuration
+Username: home@dashboard.com
+Password: 123456
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+*(These are placeholder credentials — remove them in production.)*
+
+---
+
+## 🛠 Tech Stack
+
+- **React.js**
+- **TailwindCSS**
+- **Lucide React Icons**
+- **React Router (optional if using multipage)**
+- **Vite or CRA**
+- **Fully responsive layout**
+
+---
+
+## ✨ Features
+
+- 📱 **Responsive sidebar** (collapsible + mobile hamburger)
+- 🎨 **TailwindCSS styling**
+- 🧭 **Navbar with menu toggle**
+- 📊 **Dashboard cards with icons**
+- 🖼 **SEO-ready meta tags**
+- 📑 **Sticky footer**
+- 🔐 **Temporary login page (optional)**
+
+---
+
+📝 Usage
+
+The dashboard automatically loads at /
+
+Sidebar toggle works on all pages using the shared layout
+
+Modify dashboard cards from Home.jsx
+
+📄 License
+
+MIT License © 2025 Vannamma148
